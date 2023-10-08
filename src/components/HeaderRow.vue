@@ -16,7 +16,10 @@
                     <a href="#contact">Contact</a>
                 </nav>
 
-                <a href="#contact" class="link-btn">Make appointment</a>
+
+                <router-link to="/login" class="link-btn">Log in</router-link>
+
+
 
                 <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -29,9 +32,8 @@
 </template>
 
 <script>
-export default {
-    name: "HeaderRow"
-}
+
+
 </script>
 
 <style scoped>

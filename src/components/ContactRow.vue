@@ -9,12 +9,10 @@
         <form>
             <span>your name :</span>
             <input type="text" name="name" placeholder="enter your name" class="box">
-            <span>your email :</span>
-            <input type="email" name="email" placeholder="enter your email" class="box">
             <span>your number :</span>
             <input type="number" name="number" placeholder="enter your number" class="box">
-            <span>appointment date :</span>
-            <input type="datetime-local" name="data" class="box">
+            <span>appointment day :</span>
+            
             <input type="submit" value="make appointment" name="submit" class="link-btn">
         </form>
 
